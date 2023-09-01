@@ -3,9 +3,13 @@ var media = require("./modulos/media");
 var multiplicar = require("./modulos/multiplicar");
 var dividir = require("./modulos/dividir");
 var subtrair = require("./modulos/subtrair");
+var mensagem = require("./modulos/mensagem");
+var nome = "gabriela";
 
-console.log(somar(10,90));
-console.log(media(10,90));
-console.log(multiplicar(10,90));
-console.log(dividir(10,90));
-console.log(subtrair(10,90));
+
+console.log("A soma de x e y é: " + somar(10,90));
+console.log("A medis de x e y é: " + media(10,90));
+console.log("A multiplicação de x e y é: " + multiplicar(10,90));
+console.log("A divisão de x e y é: " + dividir(10,90));
+console.log("A subtração de x e y é: " + subtrair(10,90));
+console.log(mensagem(nome));
